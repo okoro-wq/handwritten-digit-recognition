@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Env files
+.env
+!.env.example
+
+# Node (root-level tooling, if any)
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Personal study notes (not part of the project deliverable)
+INTERVIEW_PREP.md
