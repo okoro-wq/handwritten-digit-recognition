@@ -29,7 +29,7 @@ function PredictionResult({ status, result, errorMessage }: PredictionResultProp
 
   return (
     <div className="text-center" role="status">
-      <p className="text-lg">
+      <p className="text-lg text-gray-900">
         Digit: <span className="font-semibold">{result.digit}</span>
       </p>
       <p className="text-sm text-gray-500">
